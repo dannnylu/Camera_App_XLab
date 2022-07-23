@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		239C62142888807A000A590D /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C62132888807A000A590D /* CameraService.swift */; };
+		239C621628889DE0000A590D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C621528889DE0000A590D /* CameraView.swift */; };
+		239C6218288BBA4C000A590D /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C6217288BBA4C000A590D /* CustomCameraView.swift */; };
 		23C13A9E2878BBC200EB19D1 /* Simple_CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C13A9D2878BBC200EB19D1 /* Simple_CameraApp.swift */; };
 		23C13AA02878BBC200EB19D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C13A9F2878BBC200EB19D1 /* ContentView.swift */; };
 		23C13AA22878BBC300EB19D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C13AA12878BBC300EB19D1 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		239C62132888807A000A590D /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		239C621528889DE0000A590D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		239C6217288BBA4C000A590D /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
 		23C13A9A2878BBC200EB19D1 /* Simple Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C13A9D2878BBC200EB19D1 /* Simple_CameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_CameraApp.swift; sourceTree = "<group>"; };
 		23C13A9F2878BBC200EB19D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			children = (
 				23C13A9D2878BBC200EB19D1 /* Simple_CameraApp.swift */,
 				23C13A9F2878BBC200EB19D1 /* ContentView.swift */,
+				239C62132888807A000A590D /* CameraService.swift */,
+				239C621528889DE0000A590D /* CameraView.swift */,
+				239C6217288BBA4C000A590D /* CustomCameraView.swift */,
 				23C13AA12878BBC300EB19D1 /* Assets.xcassets */,
 				23C13AA32878BBC300EB19D1 /* Preview Content */,
 			);
@@ -259,6 +268,9 @@
 			files = (
 				23C13AA02878BBC200EB19D1 /* ContentView.swift in Sources */,
 				23C13A9E2878BBC200EB19D1 /* Simple_CameraApp.swift in Sources */,
+				239C6218288BBA4C000A590D /* CustomCameraView.swift in Sources */,
+				239C62142888807A000A590D /* CameraService.swift in Sources */,
+				239C621628889DE0000A590D /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Simple Camera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Simple Camera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
